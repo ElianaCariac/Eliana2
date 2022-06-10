@@ -1,0 +1,771 @@
+/* PARA TODOS LOS ELEMENTOS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+.encabezado {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #000000;
+    max-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+}
+
+.secciones-nav,
+.encabezado-redes {
+    margin-left: 2rem;
+}
+
+.nav-enlace,
+.redes-nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* FIN HEADER */
+
+
+/* PRESENTACIÓN INDEX*/
+.imagen-presentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.inicio-presentacion1 {
+    background: linear-gradient(90deg, rgba(216, 217, 221, 1) 21%, rgba(185, 8, 18, 1) 21%);
+    color: #ffffff;
+    display: flex;
+}
+
+.info-presentacion {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.hola {
+    font-size: 3rem;
+}
+
+.bienvenido {
+    line-height: 1.8;
+}
+
+.hola,
+.bienvenido,
+.presentacion1,
+.presentacion2,
+.presentacion3,
+.presentacion4 {
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+}
+
+/* FIN PRESENTACIÓN INDEX*/
+
+
+/* SERVICIOS INDEX*/
+.lista-servicios1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.lista-servicios2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2em;
+
+
+    gap: 1rem;
+}
+
+.serv {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.servicios1 h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1em;
+}
+
+.lista-servicios1 .serv h3 {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.lista-servicios2 .serv h3 {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.lista-servicios1 .serv p {
+    color: #b80a13;
+    text-align: center;
+    font-weight: 500;
+}
+
+.lista-servicios2 .serv p {
+    color: #b80a13;
+    text-align: center;
+    font-weight: 500;
+}
+
+.lista-servicios1 .serv img {
+    align-self: center;
+}
+
+.lista-servicios2 .serv img {
+    align-self: center;
+}
+
+/* FIN DE SERVICIOS INDEX*/
+
+
+/* TRABAJOS INDEX */
+.trabajos {
+    background-color: #eee;
+    margin-top: 2em;
+}
+
+.galeria1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.galeria2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1em;
+
+
+    gap: 1rem;
+}
+
+.item {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.galeria1 .item img {
+    align-self: center;
+}
+
+.galeria2 .item img {
+    align-self: center;
+}
+
+.trabajos h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.galeria1 .item h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria2 .item h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+
+}
+
+.galeria1 .item p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.galeria2 .item p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.trabajos .ver-mas {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    text-align: right;
+    padding-right: 14em;
+    color: #b80a13;
+    font-weight: 700;
+}
+
+.trabajos .ver-mas a {
+    text-decoration: none;
+    color: #b80a13;
+    text-transform: uppercase;
+}
+
+/* FIN DE TRABAJOS */
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #000000;
+    max-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2rem;
+    color: #ffffff;
+    font-size: small;
+}
+
+.encabezado-redes {
+    margin-left: 2rem;
+}
+
+.redes-nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* FIN PIE DE PÁGINA */
+
+/* TRABAJOS PÁGINA DE TRABAJOS*/
+.trabajos-realizados {
+    background-color: #eee;
+    padding-bottom: 3em;
+}
+
+.trabajos-realizados h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.galeria2 .item h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+
+}
+
+.trabajos-realizados .subtitulo-a,
+.trabajos-realizados .subtitulo-b,
+.trabajos-realizados .subtitulo-c {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.trabajos-realizados .subtitulo2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    color: #b80a13;
+}
+
+.galeria-trabajos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+
+    gap: 1rem;
+}
+
+.item-trabajo {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.item-trabajo2 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.item-trabajo3 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.item-trabajo4 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.item-trabajo5 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.item-trabajo6 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.item-trabajo7 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.galeria-trabajos1 .item-trabajo img {
+    align-self: center;
+}
+
+.galeria-trabajos2 .item-trabajo2 img {
+    align-self: center;
+}
+
+.galeria-trabajos3 .item-trabajo3 img {
+    align-self: center;
+}
+
+.galeria-trabajos4 .item-trabajo4 img {
+    align-self: center;
+}
+
+.galeria-trabajos5 .item-trabajo5 img {
+    align-self: center;
+}
+
+.galeria-trabajos6 .item-trabajo6 img {
+    align-self: center;
+}
+
+.galeria-trabajos7 .item-trabajo7 img {
+    align-self: center;
+}
+
+.galeria-trabajos1 .item-trabajo h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos2 .item-trabajo2 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos3 .item-trabajo3 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos4 .item-trabajo4 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos5 .item-trabajo5 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos6 .item-trabajo6 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos7 .item-trabajo7 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.galeria-trabajos1 .item-trabajo p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.galeria-trabajos2 .item-trabajo2 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.galeria-trabajos3 .item-trabajo3 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.galeria-trabajos4 .item-trabajo4 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+
+}
+
+.galeria-trabajos5 .item-trabajo5 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+.galeria-trabajos6 .item-trabajo6 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+.galeria-trabajos7 .item-trabajo7 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+/* FIN TRABAJOS PÁGINA DE TRABAJOS*/
+
+/* VIDEOS PÁGINA DE TRABAJOS*/
+.videos-yb {
+    background-color: #ffffff;
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+.videos-yb h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.txt-videos {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.txt-videos2 {
+    color:#b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 700;
+
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 1rem;
+}
+
+.videos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.videos-yb .tutorial {
+    width: 560px;
+    height: 315px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* FIN VIDEOS PÁGINA DE TRABAJOS*/
+
+
+/* PÁGINA DE CONTACTO*/
+.contacto {
+    background-color: #eee;
+    padding-bottom: 3em;
+}
+
+.contacto h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.contacto .sub-a,
+.contacto .sub-b,
+.contacto .sub-c {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.contacto .correo {
+    color: #b80a13;
+    font-weight: 700;
+
+}
+
+.form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #b80a13;
+    padding-left: 30px;
+}
+
+
+.form input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b80a13;
+    margin-top: 1em;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.form textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b80a13;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.form label {
+    display: block;
+    color: #ffffff;
+}
+
+
+.form p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.boton-enviar {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+/* FIN PÁGINA DE CONTACTO*/
